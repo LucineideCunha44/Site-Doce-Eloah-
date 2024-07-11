@@ -1,0 +1,287 @@
+body 
+
+{
+  font-size: 20px;
+  font-family: 'Lobster', cursive; /* Fonte Lobster para o título */
+  background-color: #f8f9fa;
+  color: #6d6e71;
+  
+ 
+}
+
+
+h2, h4 {
+      color: rgb(226, 20, 10); /* Amarelo escuro para título */
+     
+    }
+.titulo-video{
+ color: rgb(226, 20, 10); /* Amarelo escuro para título */
+
+}
+
+
+.bg-header, h2 {
+  background-color: #e2140a;
+  color: white;
+  border-radius: 15px; /* Borda arredondada */
+}
+
+
+.btn-primary {
+    background-color: #e2140a;
+    border: 1px solid #9e0707;
+    padding: 12px 24px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 15px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning{
+    background-color: #DAA520;
+    border: 1px solid #DAA520;
+    padding: 12px 24px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 15px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #B8860B;
+     border-color: #B8860B;
+     transform: scale(1.1); 
+}
+
+
+.btn-primary:hover {
+    background-color: #810808;
+    border: #9e0707;
+}
+
+  
+
+
+
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff; /* Cor padrão do texto */
+  transition: color 0.3s; /* Efeito de transição suave na cor */
+  margin-right: 40px;
+  margin-left: 40px;
+ 
+}
+
+/* Estilo para o bloco azul ao passar o mouse sobre o menu */
+.navbar-nav .nav-item:hover {
+  background-color: #490202; /* Cor de fundo azul durante o hover */
+  border-radius: 15px; /* Borda arredondada */
+
+}
+
+/* Adicione este estilo no seu arquivo CSS ou dentro da tag <style> no cabeçalho do HTML */
+.navbar-nav .active {
+  background-color: #490202; 
+  border-radius: 15px; /* Borda arredondada */
+  
+}
+
+/* Estilo para o link do menu no hover */
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fff; /* Cor branca durante o hover */
+}
+
+
+
+header {
+  position: relative;
+}
+
+.navbar {
+  z-index: 1; /* Coloca o menu sobre a imagem */
+}
+
+.navbar-toggler {
+  background-color: #fff; /* Cor de fundo do botão hambúrguer */
+ 
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* Cor do ícone do botão hambúrguer */
+}
+
+.custom-navbar {
+  background-color: #9e0707;
+}
+
+
+.zoom-effect {
+  transition: transform 0.2s ease-in-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 15px; /* Adiciona um espaçamento interno de 15px */
+}
+
+
+.card-servicos {
+  border: 1px solid #e2140a;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 30px 30px; 
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(219, 5, 5, 0.934);
+  border-radius: 15px;
+  background: linear-gradient(45deg, rgb(154, 5, 5), rgba(217, 7, 7, 0.9), rgb(1, 1, 2, 0.9));
+ color: #fff;
+ text-align: center;
+}
+.card-link-servicos{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.titulo-video {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  overflow: hidden;
+  max-width: 800px; /* Define uma largura máxima opcional para o contêiner */
+  margin: 0 auto -80px; /* Centraliza o contêiner e aplica margem inferior */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70%; /* Alterado para ocupar toda a altura do contêiner pai */
+  border: 0; /* Remove a borda padrão do iframe */
+}
+
+/* Ajuste adicional para tornar o contêiner responsivo em telas menores */
+@media (max-width: 600px) {
+  .video-container {
+    padding-bottom: 70%; /* Ajuste a proporção para telas menores conforme necessário */
+  }
+}
+
+
+
+footer {
+  background-color: #9e0707;
+  color: #fff;
+  padding: 20px 0;
+  
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+ 
+}
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh; 
+}
+
+.parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: brightness(0.4); 
+
+}
+
+.parallax img {
+  width: 100%;
+  height: auto; /* Alterado para auto para manter a proporção da imagem */
+  min-height: 100%; /* Garante que a imagem ocupe toda a altura do container */
+  object-fit: cover;
+  display: block;
+  transform: translateZ(0);
+
+}
+
+
+.navbar-brand {
+  font-weight: 900;
+}
+
+/* Quem somos */
+
+.box {
+      background-color: #ffeecc;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+    .box h3 {
+      color: #d48806; /* Amarelo escuro para o título */
+    }
+    .box p, .box li {
+      color: #6d6e71; /* Cinza escuro para o texto */
+    }
+    .box ul {
+      padding-left: 20px;
+    }
+
+
+.history-section {
+      margin-bottom: 30px;
+    }
+    .history-section h2 {
+      margin-bottom: 60px;
+      margin-top: 60px;
+      text-align: center; /* Centraliza o conteúdo */
+    }
+    .history-section p {
+      color: #6d6e71; /* Cinza escuro para texto */
+      margin-bottom: 30px
+    }
+
+
+
+ .custom-box {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      margin-top:60px;
+      margin-bottom: 60px;
+    }
+    .custom-box h2 {
+      color: #d48806; /* Amarelo escuro para título */
+      margin-bottom: 20px;
+    }
+    .custom-box p {
+      color: #6d6e71; /* Cinza escuro para texto */
+      line-height: 1.6;
+
+
+    }
+ 

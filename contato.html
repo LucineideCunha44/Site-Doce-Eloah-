@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doce Eloah</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light custom-navbar" style="font-size: 25px; ">
+      <div class="container-fluid">
+        
+        <a class="navbar-brand" href="index.html" style="margin-left: 40px; font-size: 36px; color: white;" alt="Seu Logotipo" title="Home">Doce Eloah</a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto" style="margin-top: 20px;"> 
+            <li class="nav-item " style="margin-right: 30px; "> 
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item " style="margin-right: 30px;"> 
+              <a class="nav-link" href="quem_somos.html">Quem Somos</a>
+            </li>
+            <li class="nav-item" style="margin-right: 30px;"> 
+              <a class="nav-link" href="produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item active" style="margin-right: 30px;">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        
+         
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+  
+  <main class="container mt-5">
+    <h2 class="text-center mb-4 display-5"style="margin-top: 150px;">Fale conosco agora mesmo!</h2>
+    <div class="row">
+      <div class="col-md-6"style="margin-top: 50px;">
+        <h4>Informações de Contato</h4>
+        <ul class="list-unstyled">
+          <li><strong>Vendas:</strong> (12) 98139-5595</li>
+          <li><strong>Eventos:</strong> (11) 97311-4201</li>
+          <li><strong>Email Trabalhe Conosco:</strong> <a href="mailto:recrutamento@confeitariadoceeloah.com.br">recrutamento@confeitariadoceeloah.com.br</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6"style="margin-top: 50px;">
+       <h4>Formulário de Contato</h4>
+<form action="URL_DO_SEU_FORMULARIO" method="POST" id="form-contato">
+  <div class="mb-3">
+    <label for="nome" class="form-label">Nome:</label>
+    <input type="text" class="form-control" id="nome" name="nome" required>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email" name="email" required>
+  </div>
+  <div class="mb-3">
+    <label for="telefone" class="form-label">Telefone:</label>
+    <input type="tel" class="form-control" id="telefone" name="telefone">
+  </div>
+  <div class="mb-3">
+    <label for="assunto" class="form-label">Assunto:</label>
+    <input type="text" class="form-control" id="assunto" name="assunto" required>
+  </div>
+  <div class="mb-3">
+    <label for="mensagem" class="form-label">Mensagem:</label>
+    <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+</form>
+
+      </div>
+    </div>
+    
+    <div class="row mt-5">
+      <div class="col">
+        <h4>Venha nos visitar e descubra onde a magia acontece!</h4>
+        <p>R. Ana Paula Francisco, 55 - Dalla, Taubaté - SP, 05428-000<br>HORÁRIO DE ATENDIMENTO: Segunda a Sexta-Feira Das 9 às 12h / 13h às 18h</p>
+      </div>
+    </div>
+    
+    <div class="row mt-5">
+      <div class="col">
+        <h4>Mapa</h4>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.322522220935!2d-45.55996552468557!3d-23.048634479155485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf92f5924189d%3A0xd758de7006a2c35e!2sR.%20Ana%20Paula%20Francisco%2C%2055%20-%20Res.%20Dalla%20Rosa%2C%20Taubat%C3%A9%20-%20SP%2C%2012090-767!5e0!3m2!1spt-BR!2sbr!4v1720192868561!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+  </main>
+<br>
+  
+  <footer class=" text-center py-3">
+    <div class="container">
+      <p>© 2024 Lucineide Cunha. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle (Bootstrap JS + Popper.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
